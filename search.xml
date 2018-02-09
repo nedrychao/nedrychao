@@ -3,6 +3,21 @@
   
     
     <entry>
+      <title><![CDATA[悼206花蓮地震]]></title>
+      <url>/2018/02/09/%E6%82%BC206%E8%8A%B1%E8%93%AE%E5%9C%B0%E9%9C%87/</url>
+      <content type="html"><![CDATA[<p>近幾年天災造成的悲劇不斷重複，相信沒有人願意經歷這樣的事情，已數日過去，仍是怵目驚心，只願逝者安息，生者也能早日找回生活的寧靜，必須生存在斷層之上的我們，除了捐錢以及慶幸自己的好運之外，還能多做什麼呢? 這是非常值得整個島上思考的。</p>
+]]></content>
+      
+        
+        <tags>
+            
+            <tag> Life </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[寫程式前就該懂的演算法-筆記(一)]]></title>
       <url>/2018/02/08/%E5%AF%AB%E7%A8%8B%E5%BC%8F%E5%89%8D%E5%B0%B1%E8%A9%B2%E6%87%82%E7%9A%84%E6%BC%94%E7%AE%97%E6%B3%95-%E7%AD%86%E8%A8%98-%E4%B8%80/</url>
       <content type="html"><![CDATA[<h2 id="開始之前"><a href="#開始之前" class="headerlink" title="開始之前"></a>開始之前</h2><p>在工作生涯的一段奇特空檔，曾經認真地嘗試了一段時間，那時左腳還打著石膏，還是去學了以前念書期間很殘念的java.lang，最終迫於現實加上運氣好，不知怎麼地又回到了老本行工作，偶然在網路上的廣告上看到grokking algorithm這本書，覺得很適合自己，翻譯本過了幾週就出現在網路書店的推薦列表，倒省了每個月挑哪本書買的猶豫，只是買是買了，總是沒讀完的書，最終也只是變成一堆花錢買來的紙本知識，想辦法記錄下來是不是比較有效呢? 從這裡開始試試看能堅持多久吧!<br><a id="more"></a></p>
@@ -12,7 +27,8 @@
 <h3 id="例如從1-100猜一個數字"><a href="#例如從1-100猜一個數字" class="headerlink" title="例如從1~100猜一個數字"></a>例如從1~100猜一個數字</h3><p>答案 99</p>
 <p>從1開始猜，猜完就剔除，要猜99次，逐項搜尋很慢。</p>
 <p>若一開始就從中位數50猜，在判斷較高或較低，可大幅縮減次數變成(log2 n)次。</p>
-<h3 id="用Python實作binary-search"><a href="#用Python實作binary-search" class="headerlink" title="用Python實作binary search"></a>用Python實作binary search</h3>]]></content>
+<h3 id="用Python實作binary-search"><a href="#用Python實作binary-search" class="headerlink" title="用Python實作binary search"></a>用Python實作binary search</h3><figure class="highlight objc"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">def binary_search(data_list, item):</span><br><span class="line">    low = <span class="number">0</span>  </span><br><span class="line">    high = len(data_list)<span class="number">-1</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">while</span> low &lt;= high:</span><br><span class="line">        mid = (low + high) <span class="comment">// 2</span></span><br><span class="line">        guess = data_list[mid]</span><br><span class="line">        <span class="keyword">if</span> guess == item:</span><br><span class="line">            <span class="keyword">return</span> mid</span><br><span class="line">        <span class="keyword">if</span> guess &gt; item:</span><br><span class="line">            high = mid - <span class="number">1</span></span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            low = mid + <span class="number">1</span></span><br><span class="line">    <span class="keyword">return</span> None</span><br></pre></td></tr></table></figure>
+]]></content>
       
         
         <tags>

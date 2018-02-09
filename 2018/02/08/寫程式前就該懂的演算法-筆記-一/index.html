@@ -91,7 +91,7 @@
 <meta property="og:site_name" content="南巷2號 奈德利的筆記">
 <meta property="og:description" content="開始之前在工作生涯的一段奇特空檔，曾經認真地嘗試了一段時間，那時左腳還打著石膏，還是去學了以前念書期間很殘念的java.lang，最終迫於現實加上運氣好，不知怎麼地又回到了老本行工作，偶然在網路上的廣告上看到grokking algorithm這本書，覺得很適合自己，翻譯本過了幾週就出現在網路書店的推薦列表，倒省了每個月挑哪本書買的猶豫，只是買是買了，總是沒讀完的書，最終也只是變成一堆花錢買來的紙">
 <meta property="og:locale" content="zh-tw">
-<meta property="og:updated_time" content="2018-02-08T15:24:26.573Z">
+<meta property="og:updated_time" content="2018-02-09T16:07:13.450Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="寫程式前就該懂的演算法-筆記(一)">
 <meta name="twitter:description" content="開始之前在工作生涯的一段奇特空檔，曾經認真地嘗試了一段時間，那時左腳還打著石膏，還是去學了以前念書期間很殘念的java.lang，最終迫於現實加上運氣好，不知怎麼地又回到了老本行工作，偶然在網路上的廣告上看到grokking algorithm這本書，覺得很適合自己，翻譯本過了幾週就出現在網路書店的推薦列表，倒省了每個月挑哪本書買的猶豫，只是買是買了，總是沒讀完的書，最終也只是變成一堆花錢買來的紙">
@@ -387,7 +387,8 @@
 <h3 id="例如從1-100猜一個數字"><a href="#例如從1-100猜一個數字" class="headerlink" title="例如從1~100猜一個數字"></a>例如從1~100猜一個數字</h3><p>答案 99</p>
 <p>從1開始猜，猜完就剔除，要猜99次，逐項搜尋很慢。</p>
 <p>若一開始就從中位數50猜，在判斷較高或較低，可大幅縮減次數變成(log2 n)次。</p>
-<h3 id="用Python實作binary-search"><a href="#用Python實作binary-search" class="headerlink" title="用Python實作binary search"></a>用Python實作binary search</h3>
+<h3 id="用Python實作binary-search"><a href="#用Python實作binary-search" class="headerlink" title="用Python實作binary search"></a>用Python實作binary search</h3><figure class="highlight objc"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">def binary_search(data_list, item):</span><br><span class="line">    low = <span class="number">0</span>  </span><br><span class="line">    high = len(data_list)<span class="number">-1</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">while</span> low &lt;= high:</span><br><span class="line">        mid = (low + high) <span class="comment">// 2</span></span><br><span class="line">        guess = data_list[mid]</span><br><span class="line">        <span class="keyword">if</span> guess == item:</span><br><span class="line">            <span class="keyword">return</span> mid</span><br><span class="line">        <span class="keyword">if</span> guess &gt; item:</span><br><span class="line">            high = mid - <span class="number">1</span></span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            low = mid + <span class="number">1</span></span><br><span class="line">    <span class="keyword">return</span> None</span><br></pre></td></tr></table></figure>
+
       
     </div>
     
@@ -428,6 +429,10 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2018/02/09/悼206花蓮地震/" rel="prev" title="悼206花蓮地震">
+                悼206花蓮地震 <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -518,7 +523,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">8</span>
+                  <span class="site-state-item-count">9</span>
                   <span class="site-state-item-name">文章</span>
                 </a>
               </div>
