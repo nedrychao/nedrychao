@@ -3,6 +3,26 @@
   
     
     <entry>
+      <title><![CDATA[蒜香培根馬鈴薯]]></title>
+      <url>/2018/02/11/%E8%92%9C%E9%A6%99%E5%9F%B9%E6%A0%B9%E9%A6%AC%E9%88%B4%E8%96%AF/</url>
+      <content type="html"><![CDATA[<h2 id="食譜實作-–-蒜香培根馬鈴薯"><a href="#食譜實作-–-蒜香培根馬鈴薯" class="headerlink" title="食譜實作 – 蒜香培根馬鈴薯"></a>食譜實作 – 蒜香培根馬鈴薯</h2><p>利用剩餘的蒜頭及培根，簡單的煎鍋弄出來的一道菜，馬鈴薯容易有飽足感，培根跟蒜頭可提供鹹香味，不論是正餐當配菜或下酒小酌都很合適。</p>
+<a id="more"></a>
+<h3 id="準備食材"><a href="#準備食材" class="headerlink" title="準備食材"></a>準備食材</h3><p>主要材料:<br>    馬鈴薯 1顆<br>    培根 3條</p>
+<p>調味料:<br>    蒜頭 3瓣</p>
+<h3 id="料理步驟"><a href="#料理步驟" class="headerlink" title="料理步驟"></a>料理步驟</h3><p>馬鈴薯去皮洗淨切塊，放入微波爐以耐高溫保鮮膜或蓋子密封，保持水氣不蒸散避免過乾，600w 微波約6~8分鐘，可用筷子穿刺馬鈴薯塊，確認是否熟透後備用，微波期間可將先將蒜頭切碎末備用，先將培根切小段入鍋煎柔，再取出備用，擦乾鍋子內的培根油，重新熱鍋後重新放入橄欖油，放入馬鈴薯小火翻炒至每面微焦金黃，再放入培根與蒜頭碎末拌炒，炒至蒜末微焦起鍋裝盤。</p>
+<h3 id="煮後想法"><a href="#煮後想法" class="headerlink" title="煮後想法"></a>煮後想法</h3><p>因培根本身易出油，若不分開處理容易讓馬鈴薯在翻炒後太油而影響口感，蒜末也不容易炒到微焦，建議火力維持在中火以下，多點耐心翻炒，避免大火導致炒料表皮過焦問題，另外可視口味需求額外加入鹽巴，胡椒，其他香料，或沾醬料吃。</p>
+]]></content>
+      
+        
+        <tags>
+            
+            <tag> 食譜 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[鱈魚蜜汁燒]]></title>
       <url>/2018/02/10/%E9%B1%88%E9%AD%9A%E8%9C%9C%E6%B1%81%E7%87%92/</url>
       <content type="html"><![CDATA[<h2 id="食譜實作-–-鱈魚蜜汁燒"><a href="#食譜實作-–-鱈魚蜜汁燒" class="headerlink" title="食譜實作 – 鱈魚蜜汁燒"></a>食譜實作 – 鱈魚蜜汁燒</h2><p>這次購買了大塊冷凍魚切片，魚肉厚度夠但可惜是帶骨的，嘗試以燒烤的方式進行料理。<br><a id="more"></a></p>
@@ -48,7 +68,12 @@
 <p>從1開始猜，猜完就剔除，要猜99次，逐項搜尋很慢。</p>
 <p>若一開始就從中位數50猜，在判斷較高或較低，可大幅縮減次數變成(log2 n)次。</p>
 <h3 id="用Python實作binary-search"><a href="#用Python實作binary-search" class="headerlink" title="用Python實作binary search"></a>用Python實作binary search</h3><figure class="highlight objc"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">def binary_search(data_list, item):</span><br><span class="line">    low = <span class="number">0</span>  </span><br><span class="line">    high = len(data_list)<span class="number">-1</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">while</span> low &lt;= high:</span><br><span class="line">        mid = (low + high) <span class="comment">// 2</span></span><br><span class="line">        guess = data_list[mid]</span><br><span class="line">        <span class="keyword">if</span> guess == item:</span><br><span class="line">            <span class="keyword">return</span> mid</span><br><span class="line">        <span class="keyword">if</span> guess &gt; item:</span><br><span class="line">            high = mid - <span class="number">1</span></span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            low = mid + <span class="number">1</span></span><br><span class="line">    <span class="keyword">return</span> None</span><br></pre></td></tr></table></figure>
-]]></content>
+<p>上述程式碼存成binary_search.py，啟動Pytohn 3.6環境<br>執行結果</p>
+<pre><code>&gt;&gt;&gt;data_list = [1,2,3,4,5,6,7,8,9,10] 
+&gt;&gt;&gt;import binary_search as bs
+&gt;&gt;&gt;bs.binary_search(data_list, 5)
+4
+</code></pre>]]></content>
       
         
         <tags>

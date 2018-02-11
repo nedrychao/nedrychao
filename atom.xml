@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://nedrychao.github.io/"/>
-  <updated>2018-02-10T15:12:53.541Z</updated>
+  <updated>2018-02-11T13:24:38.192Z</updated>
   <id>https://nedrychao.github.io/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>蒜香培根馬鈴薯</title>
+    <link href="https://nedrychao.github.io/2018/02/11/%E8%92%9C%E9%A6%99%E5%9F%B9%E6%A0%B9%E9%A6%AC%E9%88%B4%E8%96%AF/"/>
+    <id>https://nedrychao.github.io/2018/02/11/蒜香培根馬鈴薯/</id>
+    <published>2018-02-11T13:06:42.000Z</published>
+    <updated>2018-02-11T13:24:38.192Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="食譜實作-–-蒜香培根馬鈴薯"><a href="#食譜實作-–-蒜香培根馬鈴薯" class="headerlink" title="食譜實作 – 蒜香培根馬鈴薯"></a>食譜實作 – 蒜香培根馬鈴薯</h2><p>利用剩餘的蒜頭及培根，簡單的煎鍋弄出來的一道菜，馬鈴薯容易有飽足感，培根跟蒜頭可提供鹹香味，不論是正餐當配菜或下酒小酌都很合適。</p><a id="more"></a><h3 id="準備食材"><a href="#準備食材" class="headerlink" title="準備食材"></a>準備食材</h3><p>主要材料:<br>    馬鈴薯 1顆<br>    培根 3條</p><p>調味料:<br>    蒜頭 3瓣</p><h3 id="料理步驟"><a href="#料理步驟" class="headerlink" title="料理步驟"></a>料理步驟</h3><p>馬鈴薯去皮洗淨切塊，放入微波爐以耐高溫保鮮膜或蓋子密封，保持水氣不蒸散避免過乾，600w 微波約6~8分鐘，可用筷子穿刺馬鈴薯塊，確認是否熟透後備用，微波期間可將先將蒜頭切碎末備用，先將培根切小段入鍋煎柔，再取出備用，擦乾鍋子內的培根油，重新熱鍋後重新放入橄欖油，放入馬鈴薯小火翻炒至每面微焦金黃，再放入培根與蒜頭碎末拌炒，炒至蒜末微焦起鍋裝盤。</p><h3 id="煮後想法"><a href="#煮後想法" class="headerlink" title="煮後想法"></a>煮後想法</h3><p>因培根本身易出油，若不分開處理容易讓馬鈴薯在翻炒後太油而影響口感，蒜末也不容易炒到微焦，建議火力維持在中火以下，多點耐心翻炒，避免大火導致炒料表皮過焦問題，另外可視口味需求額外加入鹽巴，胡椒，其他香料，或沾醬料吃。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;食譜實作-–-蒜香培根馬鈴薯&quot;&gt;&lt;a href=&quot;#食譜實作-–-蒜香培根馬鈴薯&quot; class=&quot;headerlink&quot; title=&quot;食譜實作 – 蒜香培根馬鈴薯&quot;&gt;&lt;/a&gt;食譜實作 – 蒜香培根馬鈴薯&lt;/h2&gt;&lt;p&gt;利用剩餘的蒜頭及培根，簡單的煎鍋弄出來的一道菜，馬鈴薯容易有飽足感，培根跟蒜頭可提供鹹香味，不論是正餐當配菜或下酒小酌都很合適。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="食譜" scheme="https://nedrychao.github.io/tags/%E9%A3%9F%E8%AD%9C/"/>
+    
+  </entry>
   
   <entry>
     <title>鱈魚蜜汁燒</title>
@@ -62,9 +82,9 @@
     <link href="https://nedrychao.github.io/2018/02/08/%E5%AF%AB%E7%A8%8B%E5%BC%8F%E5%89%8D%E5%B0%B1%E8%A9%B2%E6%87%82%E7%9A%84%E6%BC%94%E7%AE%97%E6%B3%95-%E7%AD%86%E8%A8%98-%E4%B8%80/"/>
     <id>https://nedrychao.github.io/2018/02/08/寫程式前就該懂的演算法-筆記-一/</id>
     <published>2018-02-08T13:54:56.000Z</published>
-    <updated>2018-02-09T16:07:13.450Z</updated>
+    <updated>2018-02-11T13:38:38.817Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="開始之前"><a href="#開始之前" class="headerlink" title="開始之前"></a>開始之前</h2><p>在工作生涯的一段奇特空檔，曾經認真地嘗試了一段時間，那時左腳還打著石膏，還是去學了以前念書期間很殘念的java.lang，最終迫於現實加上運氣好，不知怎麼地又回到了老本行工作，偶然在網路上的廣告上看到grokking algorithm這本書，覺得很適合自己，翻譯本過了幾週就出現在網路書店的推薦列表，倒省了每個月挑哪本書買的猶豫，只是買是買了，總是沒讀完的書，最終也只是變成一堆花錢買來的紙本知識，想辦法記錄下來是不是比較有效呢? 從這裡開始試試看能堅持多久吧!<br><a id="more"></a></p><h2 id="第一章-演算法概述"><a href="#第一章-演算法概述" class="headerlink" title="第一章 演算法概述"></a>第一章 演算法概述</h2><p>演算法(algorithm)是為了解決問題，完成任務而設計出來的精確步驟，拿料理來比喻的話就像食譜，雖然不能但可以用程式來實現，在選擇及使用演算法時需要考慮到<strong>效能</strong>以及<strong>要解決什麼樣的問題</strong>，以能實作為主要考量。</p><h2 id="二進位搜尋-Binary-Search"><a href="#二進位搜尋-Binary-Search" class="headerlink" title="二進位搜尋(Binary Search)"></a>二進位搜尋(Binary Search)</h2><p>又叫二分搜尋，二元搜尋等等，從一個<strong>已排序的資料</strong>中間開始搜尋，用來加快搜尋速度。<br>適用的搜尋問題，例如從排序好的電話簿裡找人，從0~100裡面找特定數字。</p><p>Binary Search輸入項會是完成<strong>排序的資料或清單</strong>，找到之後傳回<strong>該資料所在的位置</strong>。</p><h3 id="例如從1-100猜一個數字"><a href="#例如從1-100猜一個數字" class="headerlink" title="例如從1~100猜一個數字"></a>例如從1~100猜一個數字</h3><p>答案 99</p><p>從1開始猜，猜完就剔除，要猜99次，逐項搜尋很慢。</p><p>若一開始就從中位數50猜，在判斷較高或較低，可大幅縮減次數變成(log2 n)次。</p><h3 id="用Python實作binary-search"><a href="#用Python實作binary-search" class="headerlink" title="用Python實作binary search"></a>用Python實作binary search</h3><figure class="highlight objc"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">def binary_search(data_list, item):</span><br><span class="line">    low = <span class="number">0</span>  </span><br><span class="line">    high = len(data_list)<span class="number">-1</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">while</span> low &lt;= high:</span><br><span class="line">        mid = (low + high) <span class="comment">// 2</span></span><br><span class="line">        guess = data_list[mid]</span><br><span class="line">        <span class="keyword">if</span> guess == item:</span><br><span class="line">            <span class="keyword">return</span> mid</span><br><span class="line">        <span class="keyword">if</span> guess &gt; item:</span><br><span class="line">            high = mid - <span class="number">1</span></span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            low = mid + <span class="number">1</span></span><br><span class="line">    <span class="keyword">return</span> None</span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<h2 id="開始之前"><a href="#開始之前" class="headerlink" title="開始之前"></a>開始之前</h2><p>在工作生涯的一段奇特空檔，曾經認真地嘗試了一段時間，那時左腳還打著石膏，還是去學了以前念書期間很殘念的java.lang，最終迫於現實加上運氣好，不知怎麼地又回到了老本行工作，偶然在網路上的廣告上看到grokking algorithm這本書，覺得很適合自己，翻譯本過了幾週就出現在網路書店的推薦列表，倒省了每個月挑哪本書買的猶豫，只是買是買了，總是沒讀完的書，最終也只是變成一堆花錢買來的紙本知識，想辦法記錄下來是不是比較有效呢? 從這裡開始試試看能堅持多久吧!<br><a id="more"></a></p><h2 id="第一章-演算法概述"><a href="#第一章-演算法概述" class="headerlink" title="第一章 演算法概述"></a>第一章 演算法概述</h2><p>演算法(algorithm)是為了解決問題，完成任務而設計出來的精確步驟，拿料理來比喻的話就像食譜，雖然不能但可以用程式來實現，在選擇及使用演算法時需要考慮到<strong>效能</strong>以及<strong>要解決什麼樣的問題</strong>，以能實作為主要考量。</p><h2 id="二進位搜尋-Binary-Search"><a href="#二進位搜尋-Binary-Search" class="headerlink" title="二進位搜尋(Binary Search)"></a>二進位搜尋(Binary Search)</h2><p>又叫二分搜尋，二元搜尋等等，從一個<strong>已排序的資料</strong>中間開始搜尋，用來加快搜尋速度。<br>適用的搜尋問題，例如從排序好的電話簿裡找人，從0~100裡面找特定數字。</p><p>Binary Search輸入項會是完成<strong>排序的資料或清單</strong>，找到之後傳回<strong>該資料所在的位置</strong>。</p><h3 id="例如從1-100猜一個數字"><a href="#例如從1-100猜一個數字" class="headerlink" title="例如從1~100猜一個數字"></a>例如從1~100猜一個數字</h3><p>答案 99</p><p>從1開始猜，猜完就剔除，要猜99次，逐項搜尋很慢。</p><p>若一開始就從中位數50猜，在判斷較高或較低，可大幅縮減次數變成(log2 n)次。</p><h3 id="用Python實作binary-search"><a href="#用Python實作binary-search" class="headerlink" title="用Python實作binary search"></a>用Python實作binary search</h3><figure class="highlight objc"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">def binary_search(data_list, item):</span><br><span class="line">    low = <span class="number">0</span>  </span><br><span class="line">    high = len(data_list)<span class="number">-1</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">while</span> low &lt;= high:</span><br><span class="line">        mid = (low + high) <span class="comment">// 2</span></span><br><span class="line">        guess = data_list[mid]</span><br><span class="line">        <span class="keyword">if</span> guess == item:</span><br><span class="line">            <span class="keyword">return</span> mid</span><br><span class="line">        <span class="keyword">if</span> guess &gt; item:</span><br><span class="line">            high = mid - <span class="number">1</span></span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            low = mid + <span class="number">1</span></span><br><span class="line">    <span class="keyword">return</span> None</span><br></pre></td></tr></table></figure><p>上述程式碼存成binary_search.py，啟動Pytohn 3.6環境<br>執行結果</p><pre><code>&gt;&gt;&gt;data_list = [1,2,3,4,5,6,7,8,9,10] &gt;&gt;&gt;import binary_search as bs&gt;&gt;&gt;bs.binary_search(data_list, 5)4</code></pre>]]></content>
     
     <summary type="html">
     
