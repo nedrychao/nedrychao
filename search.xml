@@ -3,6 +3,32 @@
   
     
     <entry>
+      <title><![CDATA[Docker on Windows 10]]></title>
+      <url>/2018/02/13/Docker-on-Windows-10/</url>
+      <content type="html"><![CDATA[<h2 id="Docker-安裝於-Win10-紀錄"><a href="#Docker-安裝於-Win10-紀錄" class="headerlink" title="Docker 安裝於 Win10 紀錄"></a>Docker 安裝於 Win10 紀錄</h2><p>開啟Hyper-V功能，下載Docker CE for WIN10版本安裝後，重開機。<br><a href="https://www.docker.com/community-edition" target="_blank" rel="noopener">https://www.docker.com/community-edition</a></p>
+<a id="more"></a>
+<p>依此說明確認docker 版本<br><a href="https://docs.docker.com/docker-for-windows/" target="_blank" rel="noopener">https://docs.docker.com/docker-for-windows/</a></p>
+<pre><code>C:\Users\Nedry&gt;docker --version
+Docker version 17.12.0-ce, build c97c6d6
+
+C:\Users\Nedry&gt;docker-compose --version
+docker-compose version 1.18.0, build 8dd22a96
+
+C:\Users\Nedry&gt;docker-machine --version
+docker-machine version 0.13.0, build 9ba6da9
+</code></pre><p>確認安裝OK</p>
+]]></content>
+      
+        
+        <tags>
+            
+            <tag> Docker </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[Happy Birthday!]]></title>
       <url>/2018/02/12/Happy-Birthday/</url>
       <content type="html"><![CDATA[<img src="https://farm5.staticflickr.com/4720/25352618197_aee11a46e0.jpg" width="500" alt="best_happy_birthday_design_elements_vector_set" data-height="230">

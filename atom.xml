@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://nedrychao.github.io/"/>
-  <updated>2018-02-12T14:10:15.415Z</updated>
+  <updated>2018-02-13T15:46:04.782Z</updated>
   <id>https://nedrychao.github.io/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Docker on Windows 10</title>
+    <link href="https://nedrychao.github.io/2018/02/13/Docker-on-Windows-10/"/>
+    <id>https://nedrychao.github.io/2018/02/13/Docker-on-Windows-10/</id>
+    <published>2018-02-13T15:34:39.000Z</published>
+    <updated>2018-02-13T15:46:04.782Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Docker-安裝於-Win10-紀錄"><a href="#Docker-安裝於-Win10-紀錄" class="headerlink" title="Docker 安裝於 Win10 紀錄"></a>Docker 安裝於 Win10 紀錄</h2><p>開啟Hyper-V功能，下載Docker CE for WIN10版本安裝後，重開機。<br><a href="https://www.docker.com/community-edition" target="_blank" rel="noopener">https://www.docker.com/community-edition</a></p><a id="more"></a><p>依此說明確認docker 版本<br><a href="https://docs.docker.com/docker-for-windows/" target="_blank" rel="noopener">https://docs.docker.com/docker-for-windows/</a></p><pre><code>C:\Users\Nedry&gt;docker --versionDocker version 17.12.0-ce, build c97c6d6C:\Users\Nedry&gt;docker-compose --versiondocker-compose version 1.18.0, build 8dd22a96C:\Users\Nedry&gt;docker-machine --versiondocker-machine version 0.13.0, build 9ba6da9</code></pre><p>確認安裝OK</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;Docker-安裝於-Win10-紀錄&quot;&gt;&lt;a href=&quot;#Docker-安裝於-Win10-紀錄&quot; class=&quot;headerlink&quot; title=&quot;Docker 安裝於 Win10 紀錄&quot;&gt;&lt;/a&gt;Docker 安裝於 Win10 紀錄&lt;/h2&gt;&lt;p&gt;開啟Hyper-V功能，下載Docker CE for WIN10版本安裝後，重開機。&lt;br&gt;&lt;a href=&quot;https://www.docker.com/community-edition&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://www.docker.com/community-edition&lt;/a&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Docker" scheme="https://nedrychao.github.io/tags/Docker/"/>
+    
+  </entry>
   
   <entry>
     <title>Happy Birthday!</title>
