@@ -83,18 +83,20 @@
 
 
 
-<meta name="description" content="Docker 安裝於 Win10 紀錄開啟Hyper-V功能，下載Docker CE for WIN10版本安裝後，重開機。https://www.docker.com/community-edition">
+<meta name="description" content="Docker 按照官方範例操作於Win10 環境下完成Docker安裝後，嘗試按照官方文件進行範例操作，來確認環境沒問題以及初步熟悉。https://docs.docker.com/docker-for-windows/#explore-the-application-and-run-examples">
 <meta name="keywords" content="Docker">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Docker on Windows 10">
-<meta property="og:url" content="https://nedrychao.github.io/2018/02/13/Docker-on-Windows-10/index.html">
+<meta property="og:title" content="Getting Started Docker on Win10 (1)">
+<meta property="og:url" content="https://nedrychao.github.io/2018/02/15/Getting-Started-Docker-on-Win10-1/index.html">
 <meta property="og:site_name" content="南巷2號 奈德利的筆記">
-<meta property="og:description" content="Docker 安裝於 Win10 紀錄開啟Hyper-V功能，下載Docker CE for WIN10版本安裝後，重開機。https://www.docker.com/community-edition">
+<meta property="og:description" content="Docker 按照官方範例操作於Win10 環境下完成Docker安裝後，嘗試按照官方文件進行範例操作，來確認環境沒問題以及初步熟悉。https://docs.docker.com/docker-for-windows/#explore-the-application-and-run-examples">
 <meta property="og:locale" content="zh-tw">
-<meta property="og:updated_time" content="2018-02-13T15:46:04.782Z">
+<meta property="og:image" content="https://farm5.staticflickr.com/4765/26392782278_8083205cfa.jpg">
+<meta property="og:updated_time" content="2018-02-14T16:17:51.804Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Docker on Windows 10">
-<meta name="twitter:description" content="Docker 安裝於 Win10 紀錄開啟Hyper-V功能，下載Docker CE for WIN10版本安裝後，重開機。https://www.docker.com/community-edition">
+<meta name="twitter:title" content="Getting Started Docker on Win10 (1)">
+<meta name="twitter:description" content="Docker 按照官方範例操作於Win10 環境下完成Docker安裝後，嘗試按照官方文件進行範例操作，來確認環境沒問題以及初步熟悉。https://docs.docker.com/docker-for-windows/#explore-the-application-and-run-examples">
+<meta name="twitter:image" content="https://farm5.staticflickr.com/4765/26392782278_8083205cfa.jpg">
 
 
 
@@ -124,13 +126,13 @@
 
 
 
-  <link rel="canonical" href="https://nedrychao.github.io/2018/02/13/Docker-on-Windows-10/"/>
+  <link rel="canonical" href="https://nedrychao.github.io/2018/02/15/Getting-Started-Docker-on-Win10-1/"/>
 
 
 
 
 
-  <title>Docker on Windows 10 | 南巷2號 奈德利的筆記</title>
+  <title>Getting Started Docker on Win10 (1) | 南巷2號 奈德利的筆記</title>
   
 
 
@@ -291,7 +293,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://nedrychao.github.io/2018/02/13/Docker-on-Windows-10/">
+    <link itemprop="mainEntityOfPage" href="https://nedrychao.github.io/2018/02/15/Getting-Started-Docker-on-Win10-1/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Nedry Chao">
@@ -308,7 +310,7 @@
 
         
         
-          <h2 class="post-title" itemprop="name headline">Docker on Windows 10</h2>
+          <h2 class="post-title" itemprop="name headline">Getting Started Docker on Win10 (1)</h2>
         
 
         <div class="post-meta">
@@ -320,8 +322,8 @@
               
                 <span class="post-meta-item-text">發表於</span>
               
-              <time title="創建於" itemprop="dateCreated datePublished" datetime="2018-02-13T23:34:39+08:00">
-                2018-02-13
+              <time title="創建於" itemprop="dateCreated datePublished" datetime="2018-02-15T00:11:29+08:00">
+                2018-02-15
               </time>
             
 
@@ -339,9 +341,9 @@
                 <span class="post-meta-item-icon">
                   <i class="fa fa-comment-o"></i>
                 </span>
-                <a href="/2018/02/13/Docker-on-Windows-10/#comments" itemprop="discussionUrl">
+                <a href="/2018/02/15/Getting-Started-Docker-on-Win10-1/#comments" itemprop="discussionUrl">
                   <span class="post-comments-count disqus-comment-count"
-                        data-disqus-identifier="2018/02/13/Docker-on-Windows-10/" itemprop="commentCount"></span>
+                        data-disqus-identifier="2018/02/15/Getting-Started-Docker-on-Win10-1/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -349,7 +351,7 @@
 
           
           
-             <span id="/2018/02/13/Docker-on-Windows-10/" class="leancloud_visitors" data-flag-title="Docker on Windows 10">
+             <span id="/2018/02/15/Getting-Started-Docker-on-Win10-1/" class="leancloud_visitors" data-flag-title="Getting Started Docker on Win10 (1)">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -380,18 +382,114 @@
       
 
       
-        <h2 id="Docker-安裝於-Win10-紀錄"><a href="#Docker-安裝於-Win10-紀錄" class="headerlink" title="Docker 安裝於 Win10 紀錄"></a>Docker 安裝於 Win10 紀錄</h2><p>開啟Hyper-V功能，下載Docker CE for WIN10版本安裝後，重開機。<br><a href="https://www.docker.com/community-edition" target="_blank" rel="noopener">https://www.docker.com/community-edition</a></p>
+        <h2 id="Docker-按照官方範例操作"><a href="#Docker-按照官方範例操作" class="headerlink" title="Docker 按照官方範例操作"></a>Docker 按照官方範例操作</h2><p>於Win10 環境下完成Docker安裝後，嘗試按照官方文件進行範例操作，來確認環境沒問題以及初步熟悉。<br><a href="https://docs.docker.com/docker-for-windows/#explore-the-application-and-run-examples" target="_blank" rel="noopener">https://docs.docker.com/docker-for-windows/#explore-the-application-and-run-examples</a></p>
 <a id="more"></a>
-<p>依此說明確認docker 版本<br><a href="https://docs.docker.com/docker-for-windows/" target="_blank" rel="noopener">https://docs.docker.com/docker-for-windows/</a></p>
-<pre><code>C:\Users\Nedry&gt;docker --version
-Docker version 17.12.0-ce, build c97c6d6
+<h3 id="docker-ps"><a href="#docker-ps" class="headerlink" title="docker ps"></a>docker ps</h3><p>在win10 環境下可以使用CMD/PowerShell進行操作，在此嘗試使用PowerShell介面做操作練習。<br>啟動PowerShell介面，輸入<strong>docker ps</strong></p>
+<pre><code>PS C:\Users\Nedry&gt; docker ps
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
+</code></pre><p>此結果顯示目前沒有container 正在執行</p>
+<h3 id="docker-version"><a href="#docker-version" class="headerlink" title="docker version"></a>docker version</h3><p>輸入<strong>dokcer version</strong> 取得版本資訊</p>
+<pre><code>PS C:\Users\Ned&gt; docker version
+Client:
+ Version:       17.12.0-ce
+ API version:   1.35
+ Go version:    go1.9.2
+ Git commit:    c97c6d6
+ Built: Wed Dec 27 20:05:22 2017
+ OS/Arch:       windows/amd64
 
-C:\Users\Nedry&gt;docker-compose --version
-docker-compose version 1.18.0, build 8dd22a96
+Server:
+ Engine:
+  Version:      17.12.0-ce
+  API version:  1.35 (minimum version 1.12)
+  Go version:   go1.9.2
+  Git commit:   c97c6d6
+  Built:        Wed Dec 27 20:12:29 2017
+  OS/Arch:      linux/amd64
+  Experimental: true
+</code></pre><h3 id="docker-info"><a href="#docker-info" class="headerlink" title="docker info"></a>docker info</h3><p>輸入<strong>docker info</strong> 確認目前docker 的執行狀態</p>
+<pre><code>PS C:\Users\Ned&gt; docker info
+Containers: 0
+ Running: 0
+ Paused: 0
+ Stopped: 0
+Images: 0
+Server Version: 17.12.0-ce
+Storage Driver: overlay2
+ Backing Filesystem: extfs
+ Supports d_type: true
+ Native Overlay Diff: true
+Logging Driver: json-file
+Cgroup Driver: cgroupfs
+Plugins:
+ Volume: local
+ Network: bridge host ipvlan macvlan null overlay
+ Log: awslogs fluentd gcplogs gelf journald json-file logentries splunk syslog
+Swarm: inactive
+Runtimes: runc
+Default Runtime: runc
+Init Binary: docker-init
+containerd version: 89623f28b87a6004d4b785663257362d1658a729
+runc version: b2567b37d7b75eb4cf325b77297b140ea686ce8f
+init version: 949e6fa
+Security Options:
+ seccomp
+ Profile: default
+Kernel Version: 4.9.60-linuxkit-aufs
+Operating System: Docker for Windows
+OSType: linux
+Architecture: x86_64
+CPUs: 2
+Total Memory: 1.934GiB
+Name: linuxkit-00155d0a060f
+ID: 7TOJ:YN24:NVAK:A6SF:NK2N:JDJQ:6ZWO:GYUJ:4OQP:VG4T:SU2E:OEBS
+Docker Root Dir: /var/lib/docker
+Debug Mode (client): false
+Debug Mode (server): true
+ File Descriptors: 19
+ Goroutines: 35
+ System Time: 2018-02-14T15:29:31.7043384Z
+ EventsListeners: 1
+ Registry: https://index.docker.io/v1/
+Labels:
+Experimental: true
+Insecure Registries:
+ 127.0.0.0/8
+Live Restore Enabled: false
+</code></pre><h3 id="docker-run-hello-world"><a href="#docker-run-hello-world" class="headerlink" title="docker run hello-world"></a>docker run hello-world</h3><p>輸入<strong>docker run hello-world</strong> 從Docker Hub pulling image失敗沒反應<br>參考了一下微軟的文件<br><a href="https://docs.microsoft.com/zh-tw/virtualization/windowscontainers/quick-start/quick-start-windows-10" target="_blank" rel="noopener">https://docs.microsoft.com/zh-tw/virtualization/windowscontainers/quick-start/quick-start-windows-10</a><br>使用常駐程式中的<strong>Switch to Windows containers…</strong>功能切換成windows下的容器環境，再重新輸入指令，測試就ok了，網速不快的話下載需要花一點時間。</p>
+<img src="https://farm5.staticflickr.com/4765/26392782278_8083205cfa.jpg" width="414" alt="docker-for-win-switch" data-height="500">
+<p>執行<strong>docker run hello-world</strong>結果</p>
+<pre><code>PS C:\Users\Ned&gt; docker run hello-world
+Unable to find image &apos;hello-world:latest&apos; locally
+latest: Pulling from library/hello-world
+407ada6e90de: Pull complete
+3cb15ab58a2c: Pull complete
+d6f879db0fe0: Pull complete
+38257f2d38d8: Pull complete
+Digest: sha256:083de497cff944f969d8499ab94f07134c50bcf5e6b9559b27182d3fa80ce3f7
+Status: Downloaded newer image for hello-world:latest
 
-C:\Users\Nedry&gt;docker-machine --version
-docker-machine version 0.13.0, build 9ba6da9
-</code></pre><p>確認安裝OK</p>
+Hello from Docker!
+This message shows that your installation appears to be working correctly.
+
+To generate this message, Docker took the following steps:
+ 1. The Docker client contacted the Docker daemon.
+ 2. The Docker daemon pulled the &quot;hello-world&quot; image from the Docker Hub.
+    (windows-amd64)
+ 3. The Docker daemon created a new container from that image which runs the
+    executable that produces the output you are currently reading.
+ 4. The Docker daemon streamed that output to the Docker client, which sent it
+    to your terminal.
+
+To try something more ambitious, you can run a Windows Server container with:
+ PS C:\&gt; docker run -it microsoft/windowsservercore powershell
+
+Share images, automate workflows, and more with a free Docker ID:
+ https://cloud.docker.com/
+
+For more examples and ideas, visit:
+ https://docs.docker.com/engine/userguide/
+</code></pre><p>待續</p>
 
       
     </div>
@@ -584,7 +682,7 @@ docker-machine version 0.13.0, build 9ba6da9
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Docker-安裝於-Win10-紀錄"><span class="nav-number">1.</span> <span class="nav-text">Docker 安裝於 Win10 紀錄</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Docker-按照官方範例操作"><span class="nav-number">1.</span> <span class="nav-text">Docker 按照官方範例操作</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#docker-ps"><span class="nav-number">1.1.</span> <span class="nav-text">docker ps</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#docker-version"><span class="nav-number">1.2.</span> <span class="nav-text">docker version</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#docker-info"><span class="nav-number">1.3.</span> <span class="nav-text">docker info</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#docker-run-hello-world"><span class="nav-number">1.4.</span> <span class="nav-text">docker run hello-world</span></a></li></ol></li></ol></div>
             
 
           </div>
@@ -767,9 +865,9 @@ docker-machine version 0.13.0, build 9ba6da9
     
       <script type="text/javascript">
         var disqus_config = function () {
-          this.page.url = 'https://nedrychao.github.io/2018/02/13/Docker-on-Windows-10/';
-          this.page.identifier = '2018/02/13/Docker-on-Windows-10/';
-          this.page.title = 'Docker on Windows 10';
+          this.page.url = 'https://nedrychao.github.io/2018/02/15/Getting-Started-Docker-on-Win10-1/';
+          this.page.identifier = '2018/02/15/Getting-Started-Docker-on-Win10-1/';
+          this.page.title = 'Getting Started Docker on Win10 (1)';
         };
         var d = document, s = d.createElement('script');
         s.src = 'https://nedrychao.disqus.com/embed.js';
