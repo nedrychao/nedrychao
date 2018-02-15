@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://nedrychao.github.io/"/>
-  <updated>2018-02-14T16:17:51.804Z</updated>
+  <updated>2018-02-15T15:23:37.627Z</updated>
   <id>https://nedrychao.github.io/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Getting Started Docker on Win10 (2)</title>
+    <link href="https://nedrychao.github.io/2018/02/15/Getting-Started-Docker-on-Win10-2/"/>
+    <id>https://nedrychao.github.io/2018/02/15/Getting-Started-Docker-on-Win10-2/</id>
+    <published>2018-02-15T14:39:23.000Z</published>
+    <updated>2018-02-15T15:23:37.627Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="docker-run-it-microsoft-windowsservercore-powershell"><a href="#docker-run-it-microsoft-windowsservercore-powershell" class="headerlink" title="docker run -it microsoft/windowsservercore powershell"></a>docker run -it microsoft/windowsservercore powershell</h3><p>依昨天的說明，嘗試了這道指令…<br><a id="more"></a><br>結果pull 一個超大的image下來</p><pre><code>PS C:\&gt; docker run -it microsoft/windowsservercore powershellUnable to find image &apos;microsoft/windowsservercore:latest&apos; locallylatest: Pulling from microsoft/windowsservercore3889bb8d808b: Downloading [================&gt;                                  ]  1.304GB/4.07GBfb27c9ba25f: Downloading [=================================================&gt; ]  1.287GB/1.308GB</code></pre><p>返鄉過年期間網速很慢，耐心的等待載完，耐心地等extracting…</p><h3 id="docker-images"><a href="#docker-images" class="headerlink" title="docker images"></a><strong>docker images</strong></h3><p>檢查一下剛剛的成果，輸入<strong>docker ps</strong> 及 <strong>docker images</strong></p><pre><code>PS C:\Users\Nedry&gt; docker psCONTAINER ID        IMAGE                         COMMAND             CREATED             STATUS              PORTS               NAMESb084df143df7        microsoft/windowsservercore   &quot;powershell&quot;        2 minutes ago       Up About a minute                       elastic_heyrovskyPS C:\Users\Nedry&gt;PS C:\Users\Ned&gt; docker imagesREPOSITORY                    TAG                 IMAGE ID            CREATED             SIZEhello-world                   latest              2f144310c852        34 hours ago        312MBmicrosoft/windowsservercore   latest              1a599239a62c        43 hours ago        10.4GB</code></pre><p>需要10.4GB的容量，待續…</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;docker-run-it-microsoft-windowsservercore-powershell&quot;&gt;&lt;a href=&quot;#docker-run-it-microsoft-windowsservercore-powershell&quot; class=&quot;headerlink&quot; title=&quot;docker run -it microsoft/windowsservercore powershell&quot;&gt;&lt;/a&gt;docker run -it microsoft/windowsservercore powershell&lt;/h3&gt;&lt;p&gt;依昨天的說明，嘗試了這道指令…&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="Docker" scheme="https://nedrychao.github.io/tags/Docker/"/>
+    
+  </entry>
   
   <entry>
     <title>Getting Started Docker on Win10 (1)</title>

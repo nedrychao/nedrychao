@@ -3,6 +3,38 @@
   
     
     <entry>
+      <title><![CDATA[Getting Started Docker on Win10 (2)]]></title>
+      <url>/2018/02/15/Getting-Started-Docker-on-Win10-2/</url>
+      <content type="html"><![CDATA[<h3 id="docker-run-it-microsoft-windowsservercore-powershell"><a href="#docker-run-it-microsoft-windowsservercore-powershell" class="headerlink" title="docker run -it microsoft/windowsservercore powershell"></a>docker run -it microsoft/windowsservercore powershell</h3><p>依昨天的說明，嘗試了這道指令…<br><a id="more"></a><br>結果pull 一個超大的image下來</p>
+<pre><code>PS C:\&gt; docker run -it microsoft/windowsservercore powershell
+Unable to find image &apos;microsoft/windowsservercore:latest&apos; locally
+latest: Pulling from microsoft/windowsservercore
+3889bb8d808b: Downloading [================&gt;                                  ]  1.304GB/4.07GB
+fb27c9ba25f: Downloading [=================================================&gt; ]  1.287GB/1.308GB
+</code></pre><p>返鄉過年期間網速很慢，耐心的等待載完，耐心地等extracting…</p>
+<h3 id="docker-images"><a href="#docker-images" class="headerlink" title="docker images"></a><strong>docker images</strong></h3><p>檢查一下剛剛的成果，輸入<strong>docker ps</strong> 及 <strong>docker images</strong></p>
+<pre><code>PS C:\Users\Nedry&gt; docker ps
+CONTAINER ID        IMAGE                         COMMAND             CREATED             STATUS              PORTS               NAMES
+b084df143df7        microsoft/windowsservercore   &quot;powershell&quot;        2 minutes ago       Up About a minute                       elastic_heyrovsky
+PS C:\Users\Nedry&gt;
+
+PS C:\Users\Ned&gt; docker images
+REPOSITORY                    TAG                 IMAGE ID            CREATED             SIZE
+hello-world                   latest              2f144310c852        34 hours ago        312MB
+microsoft/windowsservercore   latest              1a599239a62c        43 hours ago        10.4GB
+</code></pre><p>需要10.4GB的容量，待續…</p>
+]]></content>
+      
+        
+        <tags>
+            
+            <tag> Docker </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[Getting Started Docker on Win10 (1)]]></title>
       <url>/2018/02/15/Getting-Started-Docker-on-Win10-1/</url>
       <content type="html"><![CDATA[<h2 id="Docker-按照官方範例操作"><a href="#Docker-按照官方範例操作" class="headerlink" title="Docker 按照官方範例操作"></a>Docker 按照官方範例操作</h2><p>於Win10 環境下完成Docker安裝後，嘗試按照官方文件進行範例操作，來確認環境沒問題以及初步熟悉。<br><a href="https://docs.docker.com/docker-for-windows/#explore-the-application-and-run-examples" target="_blank" rel="noopener">https://docs.docker.com/docker-for-windows/#explore-the-application-and-run-examples</a></p>
