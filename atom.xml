@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://nedrychao.github.io/"/>
-  <updated>2018-02-15T15:23:37.627Z</updated>
+  <updated>2018-02-20T16:06:01.487Z</updated>
   <id>https://nedrychao.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>閱讀-DEEP WORK深度工作力：淺薄時代，個人成功的關鍵能力</title>
+    <link href="https://nedrychao.github.io/2018/02/20/%E9%96%B1%E8%AE%80-DEEP-WORK%E6%B7%B1%E5%BA%A6%E5%B7%A5%E4%BD%9C%E5%8A%9B%EF%BC%9A%E6%B7%BA%E8%96%84%E6%99%82%E4%BB%A3%EF%BC%8C%E5%80%8B%E4%BA%BA%E6%88%90%E5%8A%9F%E7%9A%84%E9%97%9C%E9%8D%B5%E8%83%BD%E5%8A%9B/"/>
+    <id>https://nedrychao.github.io/2018/02/20/閱讀-DEEP-WORK深度工作力：淺薄時代，個人成功的關鍵能力/</id>
+    <published>2018-02-20T15:46:39.000Z</published>
+    <updated>2018-02-20T16:06:01.487Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="DEEP-WORK深度工作力"><a href="#DEEP-WORK深度工作力" class="headerlink" title="DEEP WORK深度工作力"></a>DEEP WORK深度工作力</h3><img src="https://farm5.staticflickr.com/4760/38572212710_16240d872f.jpg" width="375" alt="IMG-7044" data-height="500"><blockquote><p>我將過專注的生活，因為那是最好的一種生活。</p><footer><strong>卡爾．紐波特(Cal Newport )</strong><cite>DEEP WORK深度工作力：淺薄時代，個人成功的關鍵能力</cite></footer></blockquote><a id="more"></a><h3 id="讀後感"><a href="#讀後感" class="headerlink" title="讀後感"></a>讀後感</h3><p>如同書中所說的這一句話，主要探討深度工作與淺薄工作的區別概念，藉由各種成功的案例嘗試說服讀者深度工作所能帶來的益處，以這個主題延伸，一併討論近代社交軟體與線上媒體，對人們認知與專注力無謂消耗的各式淺薄現象，我認為這是一本教導讀者如何管理時間的書籍，如果有人也和我一樣，在這個年代苦於注意力破碎，想重拾專注的學習與工作時光，這本書值得一讀。</p><p>個人喜歡書中提供了將淺薄工作置換為深度工作的策略與執行方法，也相當認同對於抵抗社交軟體綁架了寶貴時間的一些對應手法，讀完書之後隨即在工作筆記上，直接實行了書中的時間管理手法，確實獲得不錯的效果，比較可惜的是，在各項策略概念的說明段落中，每個分段對我來說不夠明確，容易讀著讀著就在龐大的概念裡迷路了，必須不斷的往回索引才找的到目前對應的策略，不過也不排除有可能是我自己注意力破碎，而無法延續思考的關係，書中龐大的策略無法一下子就吸收，但無所謂，對我來說這本書值得再次閱讀，我會再撥出時間複習書中某些適用的細節。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;DEEP-WORK深度工作力&quot;&gt;&lt;a href=&quot;#DEEP-WORK深度工作力&quot; class=&quot;headerlink&quot; title=&quot;DEEP WORK深度工作力&quot;&gt;&lt;/a&gt;DEEP WORK深度工作力&lt;/h3&gt;&lt;img src=&quot;https://farm5.staticflickr.com/4760/38572212710_16240d872f.jpg&quot; width=&quot;375&quot; alt=&quot;IMG-7044&quot; data-height=&quot;500&quot;&gt;
+&lt;blockquote&gt;&lt;p&gt;我將過專注的生活，因為那是最好的一種生活。&lt;/p&gt;
+&lt;footer&gt;&lt;strong&gt;卡爾．紐波特(Cal Newport )&lt;/strong&gt;&lt;cite&gt;DEEP WORK深度工作力：淺薄時代，個人成功的關鍵能力&lt;/cite&gt;&lt;/footer&gt;&lt;/blockquote&gt;
+    
+    </summary>
+    
+    
+      <category term="Life" scheme="https://nedrychao.github.io/tags/Life/"/>
+    
+      <category term="Read" scheme="https://nedrychao.github.io/tags/Read/"/>
+    
+  </entry>
   
   <entry>
     <title>Getting Started Docker on Win10 (2)</title>
@@ -164,13 +188,13 @@
     <link href="https://nedrychao.github.io/2018/02/07/%E6%BB%91%E9%BC%A0%E6%BB%BE%E8%BC%AA%E7%95%B0%E5%B8%B8/"/>
     <id>https://nedrychao.github.io/2018/02/07/滑鼠滾輪異常/</id>
     <published>2018-02-07T14:10:18.000Z</published>
-    <updated>2018-02-07T16:14:48.787Z</updated>
+    <updated>2018-02-20T15:59:03.849Z</updated>
     
-    <content type="html"><![CDATA[<p>使用3年的雷柏(Rapoo)7100P無線滑鼠，中間滾輪異常亂跳，還記得當初是為了5G連線的設定才買的，嘗試修復，簡單鬆開底部的螺絲，拆下外殼，結果滾輪編碼器是機械式的，不是光學式的，看來得再買料件動烙鐵，若買不到滾輪編碼器的話，只好再另覓一支滑鼠了。</p><a id="more"></a><img src="https://farm5.staticflickr.com/4764/40135554361_e2d9378fd7.jpg" width="375" alt="rapoo_7100p_repair" data-height="500">]]></content>
+    <content type="html"><![CDATA[<h3 id="滾輪異常"><a href="#滾輪異常" class="headerlink" title="滾輪異常"></a>滾輪異常</h3><p>使用3年的雷柏(Rapoo)7100P無線滑鼠，中間滾輪異常亂跳，還記得當初是為了5G連線的設定才買的，嘗試修復，簡單鬆開底部的螺絲，拆下外殼，結果滾輪編碼器是機械式的，不是光學式的，看來得再買料件動烙鐵，若買不到滾輪編碼器的話，只好再另覓一支滑鼠了。</p><a id="more"></a><img src="https://farm5.staticflickr.com/4764/40135554361_e2d9378fd7.jpg" width="375" alt="rapoo_7100p_repair" data-height="500">]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;使用3年的雷柏(Rapoo)7100P無線滑鼠，中間滾輪異常亂跳，還記得當初是為了5G連線的設定才買的，嘗試修復，簡單鬆開底部的螺絲，拆下外殼，結果滾輪編碼器是機械式的，不是光學式的，看來得再買料件動烙鐵，若買不到滾輪編碼器的話，只好再另覓一支滑鼠了。&lt;/p&gt;
+      &lt;h3 id=&quot;滾輪異常&quot;&gt;&lt;a href=&quot;#滾輪異常&quot; class=&quot;headerlink&quot; title=&quot;滾輪異常&quot;&gt;&lt;/a&gt;滾輪異常&lt;/h3&gt;&lt;p&gt;使用3年的雷柏(Rapoo)7100P無線滑鼠，中間滾輪異常亂跳，還記得當初是為了5G連線的設定才買的，嘗試修復，簡單鬆開底部的螺絲，拆下外殼，結果滾輪編碼器是機械式的，不是光學式的，看來得再買料件動烙鐵，若買不到滾輪編碼器的話，只好再另覓一支滑鼠了。&lt;/p&gt;
     
     </summary>
     
