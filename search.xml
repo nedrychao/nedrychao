@@ -3,6 +3,34 @@
   
     
     <entry>
+      <title><![CDATA[滑鼠滾輪異常修復紀錄]]></title>
+      <url>/2018/02/25/%E6%BB%91%E9%BC%A0%E6%BB%BE%E8%BC%AA%E7%95%B0%E5%B8%B8%E4%BF%AE%E5%BE%A9%E7%B4%80%E9%8C%84/</url>
+      <content type="html"><![CDATA[<h2 id="壞掉的滑鼠滾輪"><a href="#壞掉的滑鼠滾輪" class="headerlink" title="壞掉的滑鼠滾輪"></a>壞掉的滑鼠滾輪</h2><p>這幾年買的無線滑鼠，按鍵部分的微動開關都還算耐用沒有損壞，倒是中間滾輪大部分都不靈敏、亂跳動、甚至沒作用了，有支T牌的無線鼠甚至使用不用不到一個月，中間滾輪就作動異常，在文書作業跟網頁瀏覽上造成蠻大的困擾，雖說可以花個幾百塊重買省事，但自己動手樂趣無窮，在評估有能力的狀況下，準備自行更換零件，將滾輪功能修復。</p>
+<h2 id="滾輪怎麼修"><a href="#滾輪怎麼修" class="headerlink" title="滾輪怎麼修?"></a>滾輪怎麼修?</h2><a id="more"></a>
+<h3 id="先看拆解看滾輪編碼器"><a href="#先看拆解看滾輪編碼器" class="headerlink" title="先看拆解看滾輪編碼器"></a>先看拆解看滾輪編碼器</h3><p>手邊這顆是先前微軟無線鍵盤滑鼠組的無線鼠，<strong>型號:Wireless Mouse 1000</strong>，一般滑鼠構造不複雜，拆下電池後，通常是幾顆螺絲固定上下外殼，有些螺絲孔會藏在滑鼠腳墊下，可用吹風機加熱撕下，拆解後，確認是光學式或機械式的滾輪編碼器，光學式的通常清一清光柵，大部分都還可以再使用，若機械式的編碼器長久入塵後髒污一多，滾動準確度就會失效不準確，直接換掉才能一勞永逸，拆解後，量了一下零件高度11mm，手邊這幾支滑鼠都是機械式的編碼器，便上網找了免運費的編碼器零件，買不到日本的，最後買了TTC綠色高度11mm的編碼器，賣家號稱是電競級的零件，下單後兩日便到貨，取貨檢查高度後便著手準備更換。</p>
+<img src="https://farm5.staticflickr.com/4720/26606773518_89e5f7cd3c.jpg" width="375" alt="IMG_7948" data-height="500"> 
+<img src="https://farm5.staticflickr.com/4701/26606773108_8f318eb18c.jpg" width="375" alt="IMG_7949" data-height="500"> 
+<img src="https://farm5.staticflickr.com/4672/26606772618_d2c25cd948.jpg" width="375" alt="IMG_7951" data-height="500">
+<h3 id="分解滑鼠零件"><a href="#分解滑鼠零件" class="headerlink" title="分解滑鼠零件"></a>分解滑鼠零件</h3><p>使用一段時間後的滑鼠，內部通常是蠻髒的，拆下各部件的過程中，可以一併做清潔的動作，最好將拆卸方式及零件位置記錄下來<br>，以方便組裝回原本的樣子。拔除中間滾輪及電源連接線，拆掉幾個小螺絲，將電路板取下，再使用烙鐵及吸錫器將舊的編碼器解焊取下，這個步驟需要一點經驗及耐心，盡可能小心操作不要破壞電路板上其他零件以及原本的焊點，雖然可用跳線方式補救，但是麻煩多了，如果有合適的烙鐵、固定架跟夾取工具，相對作業上會輕鬆許多。</p>
+<img src="https://farm5.staticflickr.com/4697/40477775971_c0a43fbaf0.jpg" width="375" alt="IMG_7953" data-height="500">
+<h3 id="修復組裝還原"><a href="#修復組裝還原" class="headerlink" title="修復組裝還原"></a>修復組裝還原</h3><p>將新的編碼塞回原本的位置，檢查零件高度及水平是否與原本的一致，再用烙鐵&amp;焊錫焊回去，最好確認一下有沒有空焊的狀況，都沒問題的話，就可以將機構件逐項組裝回清潔完成的底座，最後建議先不要蓋回上部外殼，優先裝回電池供電測試各功能鍵及滾輪是否正常，測試一切正常的話，再組裝回滑鼠上蓋，鎖好螺絲，將並將底部鼠墊貼回原本位置，就算大功告成啦!</p>
+<img src="https://farm5.staticflickr.com/4769/26606772358_8dd9bd9b46.jpg" width="375" alt="IMG_7954" data-height="500">
+<img src="https://farm5.staticflickr.com/4752/39767234394_97165a36e9.jpg" width="375" alt="IMG_7955" data-height="500">
+<h3 id="寫在最後"><a href="#寫在最後" class="headerlink" title="寫在最後"></a>寫在最後</h3><p>拿著修好的滑鼠，又可以開心的使用了，不會馬上變成電子垃圾，這次為了修復滑鼠，又重新買了最便宜的烙鐵工具組，結果買工具的是替換零件的15倍，但動手做實際修復東西的成就感，其實讓人上癮，目前電競的產品滑鼠算是大宗，想必一隻好一點的滑鼠也不便宜，個人的經驗是目前的產品，滾輪壽命比按鍵的微動開關短多了，但不管那個部位零件壞掉，需要動烙鐵維修，想來大部分人都不願意花費這種精力，不知何時才會有廠商願意推出模組化概念的滑鼠，可以不動烙鐵，輕鬆更換內部零件的模組化滑鼠呢?基於目前的商業模式考量，猜想推出這種產品的機率應該很低很低吧。</p>
+]]></content>
+      
+        
+        <tags>
+            
+            <tag> Life </tag>
+            
+            <tag> Hardware </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[閱讀-DEEP WORK深度工作力：淺薄時代，個人成功的關鍵能力]]></title>
       <url>/2018/02/20/%E9%96%B1%E8%AE%80-DEEP-WORK%E6%B7%B1%E5%BA%A6%E5%B7%A5%E4%BD%9C%E5%8A%9B%EF%BC%9A%E6%B7%BA%E8%96%84%E6%99%82%E4%BB%A3%EF%BC%8C%E5%80%8B%E4%BA%BA%E6%88%90%E5%8A%9F%E7%9A%84%E9%97%9C%E9%8D%B5%E8%83%BD%E5%8A%9B/</url>
       <content type="html"><![CDATA[<h3 id="DEEP-WORK深度工作力"><a href="#DEEP-WORK深度工作力" class="headerlink" title="DEEP WORK深度工作力"></a>DEEP WORK深度工作力</h3><img src="https://farm5.staticflickr.com/4760/38572212710_16240d872f.jpg" width="375" alt="IMG-7044" data-height="500">
