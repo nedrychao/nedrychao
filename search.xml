@@ -3,6 +3,21 @@
   
     
     <entry>
+      <title><![CDATA[nvidia-docker 目前不支援windows環境]]></title>
+      <url>/2018/03/01/nvidia-docker-%E7%9B%AE%E5%89%8D%E4%B8%8D%E6%94%AF%E6%8F%B4windows%E7%92%B0%E5%A2%83/</url>
+      <content type="html"><![CDATA[<h2 id="關於nvidia-docker"><a href="#關於nvidia-docker" class="headerlink" title="關於nvidia-docker"></a>關於nvidia-docker</h2><p>Docker本身並不支援使用GPU，要使用GPU必須透過<strong>nvidia-docker</strong>這種可配置GPU資源的container，但nvidia-docker目前還不能在windows的環境使用，所以一開始想在windows的虛擬環境下作docker環境建置的方向錯了，手邊暫時沒有機器可以實際安裝Linux，要使用也還需要撥出一點時間進行Linux基本操作學習，或許可以考慮再組一台機器安裝ubuntu以遠端連線的方式作業。</p>
+]]></content>
+      
+        
+        <tags>
+            
+            <tag> Docker </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[滑鼠滾輪異常修復紀錄]]></title>
       <url>/2018/02/25/%E6%BB%91%E9%BC%A0%E6%BB%BE%E8%BC%AA%E7%95%B0%E5%B8%B8%E4%BF%AE%E5%BE%A9%E7%B4%80%E9%8C%84/</url>
       <content type="html"><![CDATA[<h2 id="壞掉的滑鼠滾輪"><a href="#壞掉的滑鼠滾輪" class="headerlink" title="壞掉的滑鼠滾輪"></a>壞掉的滑鼠滾輪</h2><p>這幾年買的無線滑鼠，按鍵部分的微動開關都還算耐用沒有損壞，倒是中間滾輪大部分都不靈敏、亂跳動、甚至沒作用了，有支T牌的無線鼠甚至使用不用不到一個月，中間滾輪就作動異常，在文書作業跟網頁瀏覽上造成蠻大的困擾，雖說可以花個幾百塊重買省事，但自己動手樂趣無窮，在評估有能力的狀況下，準備自行更換零件，將滾輪功能修復。</p>

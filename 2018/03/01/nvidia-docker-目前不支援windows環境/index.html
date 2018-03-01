@@ -70,7 +70,7 @@
 
 
 
-  <meta name="keywords" content="食譜," />
+  <meta name="keywords" content="Docker," />
 
 
 
@@ -83,18 +83,18 @@
 
 
 
-<meta name="description" content="初次紀錄能自己下廚的時間，只有每週短短的一天半假期，過去一年實際煮過的食物，經過一段時間後再煮一次，總是會忘記當初詳細的料理細節，希望藉由簡單的筆記能保存這些經驗，煮出更安慰人心的料理，第一篇記錄。">
-<meta name="keywords" content="食譜">
+<meta name="description" content="關於nvidia-dockerDocker本身並不支援使用GPU，要使用GPU必須透過nvidia-docker這種可配置GPU資源的container，但nvidia-docker目前還不能在windows的環境使用，所以一開始想在windows的虛擬環境下作docker環境建置的方向錯了，手邊暫時沒有機器可以實際安裝Linux，要使用也還需要撥出一點時間進行Linux基本操作學習，或許可以考慮">
+<meta name="keywords" content="Docker">
 <meta property="og:type" content="article">
-<meta property="og:title" content="挪威鮭魚佐霸王洋菇、青蔥、玉米和洋蔥">
-<meta property="og:url" content="https://nedrychao.github.io/2018/02/03/挪威鮭魚佐霸王洋菇、青蔥、玉米和洋蔥/index.html">
+<meta property="og:title" content="nvidia-docker 目前不支援windows環境">
+<meta property="og:url" content="https://nedrychao.github.io/2018/03/01/nvidia-docker-目前不支援windows環境/index.html">
 <meta property="og:site_name" content="南巷2號 奈德利的筆記">
-<meta property="og:description" content="初次紀錄能自己下廚的時間，只有每週短短的一天半假期，過去一年實際煮過的食物，經過一段時間後再煮一次，總是會忘記當初詳細的料理細節，希望藉由簡單的筆記能保存這些經驗，煮出更安慰人心的料理，第一篇記錄。">
+<meta property="og:description" content="關於nvidia-dockerDocker本身並不支援使用GPU，要使用GPU必須透過nvidia-docker這種可配置GPU資源的container，但nvidia-docker目前還不能在windows的環境使用，所以一開始想在windows的虛擬環境下作docker環境建置的方向錯了，手邊暫時沒有機器可以實際安裝Linux，要使用也還需要撥出一點時間進行Linux基本操作學習，或許可以考慮">
 <meta property="og:locale" content="zh-tw">
-<meta property="og:updated_time" content="2018-02-10T14:47:53.169Z">
+<meta property="og:updated_time" content="2018-03-01T13:57:04.225Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="挪威鮭魚佐霸王洋菇、青蔥、玉米和洋蔥">
-<meta name="twitter:description" content="初次紀錄能自己下廚的時間，只有每週短短的一天半假期，過去一年實際煮過的食物，經過一段時間後再煮一次，總是會忘記當初詳細的料理細節，希望藉由簡單的筆記能保存這些經驗，煮出更安慰人心的料理，第一篇記錄。">
+<meta name="twitter:title" content="nvidia-docker 目前不支援windows環境">
+<meta name="twitter:description" content="關於nvidia-dockerDocker本身並不支援使用GPU，要使用GPU必須透過nvidia-docker這種可配置GPU資源的container，但nvidia-docker目前還不能在windows的環境使用，所以一開始想在windows的虛擬環境下作docker環境建置的方向錯了，手邊暫時沒有機器可以實際安裝Linux，要使用也還需要撥出一點時間進行Linux基本操作學習，或許可以考慮">
 
 
 
@@ -124,13 +124,13 @@
 
 
 
-  <link rel="canonical" href="https://nedrychao.github.io/2018/02/03/挪威鮭魚佐霸王洋菇、青蔥、玉米和洋蔥/"/>
+  <link rel="canonical" href="https://nedrychao.github.io/2018/03/01/nvidia-docker-目前不支援windows環境/"/>
 
 
 
 
 
-  <title>挪威鮭魚佐霸王洋菇、青蔥、玉米和洋蔥 | 南巷2號 奈德利的筆記</title>
+  <title>nvidia-docker 目前不支援windows環境 | 南巷2號 奈德利的筆記</title>
   
 
 
@@ -291,7 +291,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://nedrychao.github.io/2018/02/03/挪威鮭魚佐霸王洋菇、青蔥、玉米和洋蔥/">
+    <link itemprop="mainEntityOfPage" href="https://nedrychao.github.io/2018/03/01/nvidia-docker-目前不支援windows環境/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Nedry Chao">
@@ -308,7 +308,7 @@
 
         
         
-          <h2 class="post-title" itemprop="name headline">挪威鮭魚佐霸王洋菇、青蔥、玉米和洋蔥</h2>
+          <h2 class="post-title" itemprop="name headline">nvidia-docker 目前不支援windows環境</h2>
         
 
         <div class="post-meta">
@@ -320,8 +320,8 @@
               
                 <span class="post-meta-item-text">發表於</span>
               
-              <time title="創建於" itemprop="dateCreated datePublished" datetime="2018-02-03T22:35:49+08:00">
-                2018-02-03
+              <time title="創建於" itemprop="dateCreated datePublished" datetime="2018-03-01T21:43:48+08:00">
+                2018-03-01
               </time>
             
 
@@ -339,9 +339,9 @@
                 <span class="post-meta-item-icon">
                   <i class="fa fa-comment-o"></i>
                 </span>
-                <a href="/2018/02/03/挪威鮭魚佐霸王洋菇、青蔥、玉米和洋蔥/#comments" itemprop="discussionUrl">
+                <a href="/2018/03/01/nvidia-docker-目前不支援windows環境/#comments" itemprop="discussionUrl">
                   <span class="post-comments-count disqus-comment-count"
-                        data-disqus-identifier="2018/02/03/挪威鮭魚佐霸王洋菇、青蔥、玉米和洋蔥/" itemprop="commentCount"></span>
+                        data-disqus-identifier="2018/03/01/nvidia-docker-目前不支援windows環境/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -349,7 +349,7 @@
 
           
           
-             <span id="/2018/02/03/挪威鮭魚佐霸王洋菇、青蔥、玉米和洋蔥/" class="leancloud_visitors" data-flag-title="挪威鮭魚佐霸王洋菇、青蔥、玉米和洋蔥">
+             <span id="/2018/03/01/nvidia-docker-目前不支援windows環境/" class="leancloud_visitors" data-flag-title="nvidia-docker 目前不支援windows環境">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -380,11 +380,7 @@
       
 
       
-        <h2 id="初次紀錄"><a href="#初次紀錄" class="headerlink" title="初次紀錄"></a>初次紀錄</h2><p>能自己下廚的時間，只有每週短短的一天半假期，過去一年實際煮過的食物，經過一段時間後再煮一次，總是會忘記當初詳細的料理細節，希望藉由簡單的筆記能保存這些經驗，煮出更安慰人心的料理，第一篇記錄。<br><a id="more"></a></p>
-<h2 id="食譜實做-–-挪威鮭魚佐霸王洋菇、青蔥、玉米和洋蔥"><a href="#食譜實做-–-挪威鮭魚佐霸王洋菇、青蔥、玉米和洋蔥" class="headerlink" title="食譜實做 – 挪威鮭魚佐霸王洋菇、青蔥、玉米和洋蔥"></a>食譜實做 – 挪威鮭魚佐霸王洋菇、青蔥、玉米和洋蔥</h2><h3 id="準備食材"><a href="#準備食材" class="headerlink" title="準備食材"></a>準備食材</h3><p>主要材料:<br>    1.去刺挪威鮭魚 1塊 約200g<br>    2.霸王洋菇 5朵<br>    3.罐頭玉米粒 4~5小匙<br>    4.洋蔥 半顆<br>    5.青蔥 一支</p>
-<p>調味料:<br>    1.橄欖油 2~3茶匙<br>    2.鹽 2茶匙<br>    3.白胡椒粉 胡椒罐撒3次的量</p>
-<h3 id="料理步驟"><a href="#料理步驟" class="headerlink" title="料理步驟"></a>料理步驟</h3><p>鮭魚洗淨裝盤抹上鹽巴，撒上胡椒粉靜置10分鐘入味，霸王洋菇切片，洋蔥切丁，青蔥切碎末備用，平底鍋入1茶匙橄欖油，開中火，倒入洋蔥、洋菇、玉米粒拌炒3分鐘，取出放置，紙巾擦拭平底鍋水分，重新加入2茶匙橄欖油，開小火熱鍋，以紙巾擦去鮭魚兩面鹽巴及多餘水分入鍋，開中火煎至每一面金黃，鮭魚肉不透明但保持濕潤狀態，立面可用夾起筷子補助，維持內部魚肉軟嫩不過乾，重新加入炒過的配料加熱，撒上鹽巴及青蔥拌炒至玉米及洋蔥微焦，盛起配料平舖於盤中，鮭魚起鍋放置於配料上，完成上菜。</p>
-<h3 id="煮後想法"><a href="#煮後想法" class="headerlink" title="煮後想法"></a>煮後想法</h3><p>鮭魚可選未帶皮塊狀肉，與配菜共同食用時，挖取會更方便，外觀也更好看，可視自己喜好撒上調味料，後續會有機會再嘗試將魚肉表面煎得更乾，確認是否能避免裝盤時，魚肉太軟嫩邊緣碎開的狀況，此次購入的挪威鮭魚真的好吃。</p>
+        <h2 id="關於nvidia-docker"><a href="#關於nvidia-docker" class="headerlink" title="關於nvidia-docker"></a>關於nvidia-docker</h2><p>Docker本身並不支援使用GPU，要使用GPU必須透過<strong>nvidia-docker</strong>這種可配置GPU資源的container，但nvidia-docker目前還不能在windows的環境使用，所以一開始想在windows的虛擬環境下作docker環境建置的方向錯了，手邊暫時沒有機器可以實際安裝Linux，要使用也還需要撥出一點時間進行Linux基本操作學習，或許可以考慮再組一台機器安裝ubuntu以遠端連線的方式作業。</p>
 
       
     </div>
@@ -402,7 +398,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/食譜/" rel="tag"># 食譜</a>
+            <a href="/tags/Docker/" rel="tag"># Docker</a>
           
         </div>
       
@@ -415,8 +411,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2018/02/02/My-New-Post/" rel="next" title="My New Post">
-                <i class="fa fa-chevron-left"></i> My New Post
+              <a href="/2018/02/25/滑鼠滾輪異常修復紀錄/" rel="next" title="滑鼠滾輪異常修復紀錄">
+                <i class="fa fa-chevron-left"></i> 滑鼠滾輪異常修復紀錄
               </a>
             
           </div>
@@ -424,10 +420,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2018/02/04/I-need-this-video/" rel="prev" title="I need this video.">
-                I need this video. <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -581,7 +573,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#初次紀錄"><span class="nav-number">1.</span> <span class="nav-text">初次紀錄</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#食譜實做-–-挪威鮭魚佐霸王洋菇、青蔥、玉米和洋蔥"><span class="nav-number">2.</span> <span class="nav-text">食譜實做 – 挪威鮭魚佐霸王洋菇、青蔥、玉米和洋蔥</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#準備食材"><span class="nav-number">2.1.</span> <span class="nav-text">準備食材</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#料理步驟"><span class="nav-number">2.2.</span> <span class="nav-text">料理步驟</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#煮後想法"><span class="nav-number">2.3.</span> <span class="nav-text">煮後想法</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#關於nvidia-docker"><span class="nav-number">1.</span> <span class="nav-text">關於nvidia-docker</span></a></li></ol></div>
             
 
           </div>
@@ -764,9 +756,9 @@
     
       <script type="text/javascript">
         var disqus_config = function () {
-          this.page.url = 'https://nedrychao.github.io/2018/02/03/挪威鮭魚佐霸王洋菇、青蔥、玉米和洋蔥/';
-          this.page.identifier = '2018/02/03/挪威鮭魚佐霸王洋菇、青蔥、玉米和洋蔥/';
-          this.page.title = '挪威鮭魚佐霸王洋菇、青蔥、玉米和洋蔥';
+          this.page.url = 'https://nedrychao.github.io/2018/03/01/nvidia-docker-目前不支援windows環境/';
+          this.page.identifier = '2018/03/01/nvidia-docker-目前不支援windows環境/';
+          this.page.title = 'nvidia-docker 目前不支援windows環境';
         };
         var d = document, s = d.createElement('script');
         s.src = 'https://nedrychao.disqus.com/embed.js';
