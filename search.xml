@@ -3,6 +3,27 @@
   
     
     <entry>
+      <title><![CDATA[馬鈴薯烘蛋]]></title>
+      <url>/2018/03/04/%E9%A6%AC%E9%88%B4%E8%96%AF%E7%83%98%E8%9B%8B/</url>
+      <content type="html"><![CDATA[<h2 id="不想吃飯的時候-–-馬鈴薯烘蛋"><a href="#不想吃飯的時候-–-馬鈴薯烘蛋" class="headerlink" title="不想吃飯的時候 – 馬鈴薯烘蛋"></a>不想吃飯的時候 – 馬鈴薯烘蛋</h2><p>因為想陪家人看美劇，早餐又太晚吃，不想煮一頓完整的飯，冰箱還剩下一顆馬鈴薯，做個簡單料理。至於旁邊的洋蔥雞肉煎豆腐，也算是清冰箱的奇怪中式搭配，很常做，下次再紀錄。</p>
+<img src="https://farm5.staticflickr.com/4742/40610248061_4af7baf1f9.jpg" width="500" alt="IMG_8015" data-height="375">
+<a id="more"></a>
+<h3 id="準備食材"><a href="#準備食材" class="headerlink" title="準備食材"></a>準備食材</h3><p>主要材料:<br>    馬鈴薯 1顆<br>    雞蛋 3顆</p>
+<p>調味料:<br>    鹽巴<br>    黑胡椒<br>    番茄醬</p>
+<h3 id="料理步驟"><a href="#料理步驟" class="headerlink" title="料理步驟"></a>料理步驟</h3><p>馬鈴薯洗淨去皮切絲，放入微波爐600w 6min加熱後，取出放涼或過冷水降溫，雞蛋三顆加入馬鈴薯絲及黑胡椒、鹽巴等調味料拌勻，平底鍋放一匙油入鍋煎熟，可利用盤子反蓋取出整塊馬鈴薯烘蛋方便翻面，煎至兩面金黃微焦後裝盤，搭配一點蕃茄醬當調味料即可。</p>
+<h3 id="煮後想法"><a href="#煮後想法" class="headerlink" title="煮後想法"></a>煮後想法</h3><p>馬鈴薯可以用刨絲器再弄碎一點，甚至加些香料攪拌，並且表皮用比較大的火煎乾，煎的過程油放少一點，口感或許能更酥脆。</p>
+]]></content>
+      
+        
+        <tags>
+            
+            <tag> 食譜 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[nvidia-docker 目前不支援windows環境]]></title>
       <url>/2018/03/01/nvidia-docker-%E7%9B%AE%E5%89%8D%E4%B8%8D%E6%94%AF%E6%8F%B4windows%E7%92%B0%E5%A2%83/</url>
       <content type="html"><![CDATA[<h2 id="關於nvidia-docker"><a href="#關於nvidia-docker" class="headerlink" title="關於nvidia-docker"></a>關於nvidia-docker</h2><p>Docker本身並不支援使用GPU，要使用GPU必須透過<strong>nvidia-docker</strong>這種可配置GPU資源的container，但nvidia-docker目前還不能在windows的環境使用，所以一開始想在windows的虛擬環境下作docker環境建置的方向錯了，手邊暫時沒有機器可以實際安裝Linux，要使用也還需要撥出一點時間進行Linux基本操作學習，或許可以考慮再組一台機器安裝ubuntu以遠端連線的方式作業。</p>
